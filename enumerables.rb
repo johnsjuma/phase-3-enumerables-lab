@@ -71,3 +71,7 @@ def average_heat_level(spicy_foods)
   total = spicy_foods.sum{|f| f[:heat_level] }
   return total/spicy_foods.size
 end
+
+
+
+####
